@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 // material-ui
-import { ButtonBase } from '@mui/material';
+import { ButtonBase, Typography, Box } from '@mui/material';
 
 // project imports
 import config from 'config';
@@ -11,7 +11,22 @@ import Logo from 'ui-component/Logo';
 
 const LogoSection = () => (
     <ButtonBase disableRipple component={Link} to={config.defaultPath}>
-        <Logo />
+        {/* <Logo /> */}
+        <Box
+            style={{
+                width: 92,
+                height: 32
+            }}
+        >
+            <Typography
+                style={{
+                    fontSize: 24,
+                    fontWeight: 'bold'
+                }}
+            >
+                M DASH
+            </Typography>
+        </Box>
     </ButtonBase>
 );
 
