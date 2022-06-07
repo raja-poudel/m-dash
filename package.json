@@ -2,7 +2,7 @@
     "name": "berry-material-react-free",
     "version": "3.0.1",
     "private": true,
-    "homepage": "https://berrydashboard.io/free",
+    "homepage": "https://raja-poudel.github.io/",
     "dependencies": {
         "@emotion/cache": "^11.4.0",
         "@emotion/react": "^11.4.0",
@@ -42,7 +42,9 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+	"deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": [
