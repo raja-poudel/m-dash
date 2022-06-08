@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 // third party
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
+import { Toaster } from 'react-hot-toast';
 
 // project imports
 import * as serviceWorker from 'serviceWorker';
@@ -17,6 +18,7 @@ import 'assets/scss/style.scss';
 ReactDOM.render(
     <Provider store={store}>
         <BrowserRouter>
+            <Toaster position="top-center" reverseOrder={false} />
             <App />
         </BrowserRouter>
     </Provider>,
