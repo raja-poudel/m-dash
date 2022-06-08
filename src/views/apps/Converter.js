@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import { useSelector } from 'react-redux';
+// import { useSelector } from 'react-redux';
 
 // material-ui
-import { useTheme } from '@mui/material/styles';
+// import { useTheme } from '@mui/material/styles';
 import { Grid, Button } from '@mui/material';
 
 // project imports
@@ -13,21 +13,17 @@ import { gridSpacing } from 'store/constant';
 
 // thirdparty imports
 import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css'; // ES6
-// project imports
-// import chartData from './chart-data/bajaj-area-chart';
-
-// ===========================|| DASHBOARD DEFAULT - BAJAJ AREA CHART CARD ||=========================== //
+import 'react-quill/dist/quill.snow.css';
 
 const Converter = () => {
-    const theme = useTheme();
-    const customization = useSelector((state) => state.customization);
-    const { navType } = customization;
+    // const theme = useTheme();
+    // const customization = useSelector((state) => state.customization);
+    // const { navType } = customization;
     const [state, setState] = useState({
         csv: '',
         json: ''
     });
-    const orangeDark = theme.palette.secondary[800];
+    // const orangeDark = theme.palette.secondary[800];
 
     useEffect(() => {}, []);
 

@@ -5,7 +5,7 @@ import { ButtonBase, Typography, Box } from '@mui/material';
 
 // project imports
 import config from 'config';
-import Logo from 'ui-component/Logo';
+// import Logo from 'ui-component/Logo';
 
 // ==============================|| MAIN LOGO ||============================== //
 

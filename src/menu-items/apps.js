@@ -1,9 +1,9 @@
 // assets
-import { IconCone } from '@tabler/icons';
+import { IconDashboard } from '@tabler/icons';
 
 // constant
 const icons = {
-    IconCone
+    IconDashboard
 };
 
 // ==============================|| EXTRA PAGES MENU ITEMS ||============================== //
@@ -20,7 +20,7 @@ const pages = {
             type: 'item',
             url: '/dashboard/apps/converter',
             breadcrumbs: false,
-            icon: icons.IconCone
+            icon: icons.IconDashboard
         }
     ]
 };
