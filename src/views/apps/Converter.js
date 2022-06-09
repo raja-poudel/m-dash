@@ -24,8 +24,6 @@ import MainCard from 'ui-component/cards/MainCard';
 import { gridSpacing } from 'store/constant';
 
 // thirdparty imports
-import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css';
 import toast from 'react-hot-toast';
 
 const Converter = () => {
